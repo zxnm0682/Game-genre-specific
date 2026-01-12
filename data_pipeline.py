@@ -23,7 +23,7 @@ TARGET_SIZE = (224, 224)              # 리사이징 크기
 
 TARGET_TAGS = [
     "Adventure", "Action", "RPG", "Strategy", "Simulation", "Sports", "Racing", 
-    "Puzzle", "Sandbox", "Shooter", "Survival", "Fighting", "Music"
+    "Puzzle", "Sandbox", "Shooter", "Survival"
 ]
 
 MAX_WORKERS_DL = 30    # 다운로드용 스레드 수
