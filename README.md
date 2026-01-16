@@ -35,4 +35,5 @@ CNN 기반 설계: VGG-Style의 합성곱 신경망을 기반으로 Batch Normal
 실험 기록: notebooks/ 폴더 내의 파일들을 통해 초기 아이디어 구상부터 최종 모델 완성까지의 실험 결과와 시각화 로그를 확인할 수 있습니다.
 
 📊 Dataset Information
+
 이 프로젝트에 사용된 데이터셋은 https://www.kaggle.com/datasets/fronkongames/steam-games-datasetd 의 'games.json' 파일을 이용해 실험 목적에 맞게 서브셋을 추출하여 사용했습니다.
