@@ -1,4 +1,4 @@
-# 게임 장르 다중 레이블 분류 프로젝트 (Game Genre Multi-label Classification)
+# 게임 장르 다중 레이블 분류 CNN (Game Genre Multi-label Classification)
 
 이 프로젝트는 게임 스크린샷 이미지를 분석하여 해당 게임이 속한 여러 장르(Action, RPG, Strategy 등)를 동시에 예측하는 Deep Learning 기반 다중 레이블 분류 시스템입니다.
 
