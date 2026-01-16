@@ -2,7 +2,7 @@
 
 이 프로젝트는 게임 스크린샷 이미지를 분석하여 해당 게임이 속한 여러 장르(Action, RPG, Strategy 등)를 동시에 예측하는 Deep Learning 기반 다중 레이블 분류 시스템입니다.
 
-1. data_pipeline.py & data_split.py
+**1. data_pipeline.py & data_split.py**
    
 전처리: 고해상도 이미지를 모델 입력 크기(224x224)로 리사이징하고 픽셀 값을 정규화합니다.
 
@@ -10,11 +10,11 @@
 
 CSV 동기화: 이미지 파일명과 다중 레이블(One-hot encoding) 벡터를 매핑한 통합 CSV를 생성합니다.
 
-2. dataloader.py
+**2. dataloader.py**
    
 동적 샘플링: 특정 장르에 데이터가 치우치지 않도록 매 에폭마다 각 장르에서 동일한 수의 샘플을 무작위로 추출하여 학습에 사용합니다.
 
-3. model.py (Model Architecture)
+**3. model.py (Model Architecture)**
    
 CNN 기반 설계: VGG-Style의 합성곱 신경망을 기반으로 Batch Normalization과 Dropout을 적용하여 과적합을 방지했습니다.
 
@@ -22,13 +22,13 @@ CNN 기반 설계: VGG-Style의 합성곱 신경망을 기반으로 Batch Normal
 
 커스텀 지표: 단순 정확도 대신 Exact Match Ratio, Micro F1-Score를 구현하여 다중 레이블 모델의 성능을 정밀하게 측정합니다.
 
-4. visualize.py
+**4. visualize.py**
    
 학습 모니터링: Loss, Accuracy의 변화 추이를 시각화합니다.
 
 장르별 성능 분석: 전체 평균이 아닌 개별 장르별 2x2 Confusion Matrix를 히트맵으로 출력하여, 모델이 특히 약한 장르를 파악하고 개선 방향을 제시합니다.
 
-5. main.py & Notebooks (Execution & Demo)
+**5. main.py & Notebooks**
    
 파이프라인 제어: 데이터 분리부터 학습, 모델 저장까지의 전 과정을 자동화했습니다.
 
