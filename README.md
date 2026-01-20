@@ -36,4 +36,4 @@ CNN 기반 설계: VGG-Style의 합성곱 신경망을 기반으로 Batch Normal
 
 📊 Dataset Information
 
-이 프로젝트에 사용된 데이터셋은 https://www.kaggle.com/datasets/fronkongames/steam-games-datasetd 의 'games.json' 파일을 이용해 실험 목적에 맞게 서브셋을 추출하여 사용했습니다.
+이 프로젝트에 사용된 데이터셋은 https://www.kaggle.com/datasets/fronkongames/steam-games-dataset 의 'games.json' 파일을 이용해 실험 목적에 맞게 서브셋을 추출하여 사용했습니다.
